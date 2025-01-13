@@ -16,7 +16,7 @@ advantagesList.addEventListener("mouseover", (event) => {
 			event.target
 				.closest(".advantages_item")
 				.classList.add("currentAdvantage");
-			advantagesImg.style.backgroundImage = `url('./../assets/Pictures/Advantages/pic${b}.jpg')`;
+			advantagesImg.style.backgroundImage = `url('/assets/Pictures/Advantages/pic${b}.jpg')`;
 		}
 		if (
 			event.target.closest(".advantages_item").classList.contains("item2")
@@ -28,7 +28,7 @@ advantagesList.addEventListener("mouseover", (event) => {
 			event.target
 				.closest(".advantages_item")
 				.classList.add("currentAdvantage");
-			advantagesImg.style.backgroundImage = `url('./../assets/Pictures/Advantages/pic${b}.jpg')`;
+			advantagesImg.style.backgroundImage = `url('/assets/Pictures/Advantages/pic${b}.jpg')`;
 		}
 		if (
 			event.target.closest(".advantages_item").classList.contains("item3")
@@ -40,7 +40,7 @@ advantagesList.addEventListener("mouseover", (event) => {
 			event.target
 				.closest(".advantages_item")
 				.classList.add("currentAdvantage");
-			advantagesImg.style.backgroundImage = `url('./../assets/Pictures/Advantages/pic${b}.jpg')`;
+			advantagesImg.style.backgroundImage = `url('/assets/Pictures/Advantages/pic${b}.jpg')`;
 		}
 		if (
 			event.target.closest(".advantages_item").classList.contains("item4")
@@ -52,7 +52,7 @@ advantagesList.addEventListener("mouseover", (event) => {
 			event.target
 				.closest(".advantages_item")
 				.classList.add("currentAdvantage");
-			advantagesImg.style.backgroundImage = `url('./../assets/Pictures/Advantages/pic${b}.jpg')`;
+			advantagesImg.style.backgroundImage = `url('/assets/Pictures/Advantages/pic${b}.jpg')`;
 		} else {
 			document
 				.querySelector(".currentAdvantage")
@@ -73,28 +73,28 @@ setInterval(() => {
 			.querySelector(".currentAdvantage")
 			.classList.remove("currentAdvantage");
 		document.querySelector(".item1").classList.add("currentAdvantage");
-		advantagesImg.style.backgroundImage = `url('./../assets/Pictures/Advantages/pic${b}.jpg')`;
+		advantagesImg.style.backgroundImage = `url('/assets/Pictures/Advantages/pic${b}.jpg')`;
 	}
 	if (b == 2) {
 		document
 			.querySelector(".currentAdvantage")
 			.classList.remove("currentAdvantage");
 		document.querySelector(".item2").classList.add("currentAdvantage");
-		advantagesImg.style.backgroundImage = `url('./../assets/Pictures/Advantages/pic${b}.jpg')`;
+		advantagesImg.style.backgroundImage = `url('/assets/Pictures/Advantages/pic${b}.jpg')`;
 	}
 	if (b == 3) {
 		document
 			.querySelector(".currentAdvantage")
 			.classList.remove("currentAdvantage");
 		document.querySelector(".item3").classList.add("currentAdvantage");
-		advantagesImg.style.backgroundImage = `url('./../assets/Pictures/Advantages/pic${b}.jpg')`;
+		advantagesImg.style.backgroundImage = `url('/assets/Pictures/Advantages/pic${b}.jpg')`;
 	}
 	if (b == 4) {
 		document
 			.querySelector(".currentAdvantage")
 			.classList.remove("currentAdvantage");
 		document.querySelector(".item4").classList.add("currentAdvantage");
-		advantagesImg.style.backgroundImage = `url('./../assets/Pictures/Advantages/pic${b}.jpg')`;
+		advantagesImg.style.backgroundImage = `url('/assets/Pictures/Advantages/pic${b}.jpg')`;
 	}
 	if (b == 5) {
 		document
@@ -122,7 +122,7 @@ setInterval(() => {
 		i = 1;
 		return;
 	} else {
-		pictureContainer.style.background = `url('./../assets/Pictures/Products/pic${i}.jpg') no-repeat`;
+		pictureContainer.style.background = `url('/assets/Pictures/Products/pic${i}.jpg') no-repeat`;
 		pictureContainer.style.backgroundSize = "cover";
 		pictureContainer.style.backgroundPosition = " 50% center";
 		if (i == 1) {
@@ -164,7 +164,7 @@ optionsList.addEventListener("mouseover", (event) => {
 	if (event.target.classList.contains("products_option")) {
 		if (event.target.classList.contains("option1")) {
 			i = 1;
-			pictureContainer.style.background = `url('./../assets/Pictures/Products/pic${i}.jpg') no-repeat`;
+			pictureContainer.style.background = `url('/assets/Pictures/Products/pic${i}.jpg') no-repeat`;
 			pictureContainer.style.backgroundSize = "cover";
 			pictureContainer.style.backgroundPosition = " 50% center";
 			document
@@ -179,7 +179,7 @@ optionsList.addEventListener("mouseover", (event) => {
 				.classList.add("currentDescription");
 		} else if (event.target.classList.contains("option2")) {
 			i = 2;
-			pictureContainer.style.background = `url('./../assets/Pictures/Products/pic${i}.jpg') no-repeat`;
+			pictureContainer.style.background = `url('/assets/Pictures/Products/pic${i}.jpg') no-repeat`;
 			pictureContainer.style.backgroundSize = "cover";
 			pictureContainer.style.backgroundPosition = " 50% center";
 			document
@@ -194,7 +194,7 @@ optionsList.addEventListener("mouseover", (event) => {
 				.classList.add("currentDescription");
 		} else if (event.target.classList.contains("option3")) {
 			i = 3;
-			pictureContainer.style.background = `url('./../assets/Pictures/Products/pic${i}.jpg') no-repeat`;
+			pictureContainer.style.background = `url('/assets/Pictures/Products/pic${i}.jpg') no-repeat`;
 			pictureContainer.style.backgroundSize = "cover";
 			pictureContainer.style.backgroundPosition = " 50% center";
 			document
